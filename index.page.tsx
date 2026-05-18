@@ -14,7 +14,7 @@ export const frontmatter = {
 
 const LISTINGS = [
   { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: 5, status: 'Active' },
-  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: -3, status: 'Active' },
+  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: 10, status: 'Active' },
   { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: 0, status: 'Draft' },
 ];
 
