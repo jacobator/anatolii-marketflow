@@ -14,7 +14,7 @@ export const frontmatter = {
 
 const LISTINGS = [
   { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: 5, status: 'Active' },
-  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: 12, status: 'Active' },
+  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: -3, status: 'Active' },
   { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: 0, status: 'Draft' },
 ];
 
@@ -24,7 +24,7 @@ const CODE_SAMPLE = `curl -X GET https://api.marketplace.example.com/v1/products
 const RESPONSE = `{
   "id": "prod_01J2",
   "name": "Vintage Camera",
-  "price": 299.00,
+  "price": 199.00,
   "currency": "USD",
   "stock": 5
 }`;
@@ -124,7 +124,7 @@ export default function HomePage() {
       <FeaturesSection>
         <Container>
           <SectionLabel>Core Capabilities</SectionLabel>
-          <SectionTitle>Everything you need to sell.</SectionTitle>
+          <SectionTitle>Everthing you need to sell.</SectionTitle>
           <FeatureGrid>
             {FEATURES.map(f => (
               <FeatureCard key={f.title}>
@@ -180,7 +180,7 @@ export default function HomePage() {
         <CtaSub>Access complete UI guides for buyers and sellers, or dive right into the developer documentation.</CtaSub>
         <CtaBtns>
           <CtaPrimary as={Link} to="/docs/api/getting-started">API Documentation</CtaPrimary>
-          <CtaOutline as={Link} to="/docs/ui/seller-dashboard">Seller Guide</CtaOutline>
+          <CtaOutline as={Link} to="/docs/ui/seller-dashbord">Seller Guide</CtaOutline>
         </CtaBtns>
       </CtaSection>
     </Wrapper>
@@ -578,7 +578,7 @@ const EpTitle = styled.div`
 
 const EpDesc = styled.div`
   font-size: 14px;
-  color: var(--landing-text-muted);
+  color: var(--landing-text-mutted);
   margin-bottom: 16px;
   line-height: 1.5;
 `;

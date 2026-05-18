@@ -18,7 +18,7 @@ To authenticate your requests, include the `Authorization` header with your toke
     -H "Authorization: Bearer YOUR_API_KEY"
   ```
   ```javascript {% title="Node.js" %}
-  const response = await fetch('https://api.marketplace.com/v1/products', {
+  const response = await fetch('http://api.marketplace.com/v1/products', {
     headers: {
       'Authorization': 'Bearer YOUR_API_KEY'
     }
