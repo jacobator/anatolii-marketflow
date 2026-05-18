@@ -1,0 +1,101 @@
+/* @theme/styles.css */
+
+:root {
+  /* Brand */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  /* Global */
+  --bg-color: #ffffff;
+
+  /* Navbar */
+  --navbar-bg-color: #ffffff;
+  --navbar-text-color: #0f172a;
+  --navbar-border-color: #e2e8f0;
+
+  /* Footer */
+  --footer-bg-color: #f8fafc;
+  --footer-text-color: #475569;
+  --footer-border-color: #e2e8f0;
+  --footer-title-text-color: #0f172a;
+  --footer-link-text-color: #2563eb;
+
+  /* Sidebar */
+  --sidebar-background-color: #f8fafc;
+  --sidebar-border-color: #e2e8f0;
+  --menu-item-bg-color-active: rgba(37, 99, 235, 0.05);
+
+  /* Content */
+  --content-background-color: #ffffff;
+  --h1-text-color: #0f172a;
+  --text-color: #334155;
+  --text-color-secondary: #64748b;
+
+  /* Links & Borders */
+  --link-text-color: #2563eb;
+  --border-color: #e2e8f0;
+  --border-color-secondary: #f1f5f9;
+
+  /* Search */
+  --search-input-bg-color: #f1f5f9;
+  --search-trigger-color: #64748b;
+
+  /* Landing page variables */
+  --landing-bg: #f8fafc;
+  --landing-text: #0f172a;
+  --landing-text-muted: #64748b;
+  --landing-surface: #ffffff;
+  --landing-border: #e2e8f0;
+  --landing-accent: #2563eb;
+  --landing-accent-secondary: #0ea5e9;
+}
+
+:root.dark {
+  /* Brand */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #60a5fa;
+
+  /* Global */
+  --bg-color: #0f172a;
+
+  /* Navbar */
+  --navbar-bg-color: #0f172a;
+  --navbar-text-color: #f8fafc;
+  --navbar-border-color: rgba(255, 255, 255, 0.08);
+
+  /* Footer */
+  --footer-bg-color: #0b0f19;
+  --footer-text-color: #94a3b8;
+  --footer-border-color: rgba(255, 255, 255, 0.08);
+  --footer-title-text-color: #f8fafc;
+  --footer-link-text-color: #3b82f6;
+
+  /* Sidebar */
+  --sidebar-background-color: #0b0f19;
+  --sidebar-border-color: rgba(255, 255, 255, 0.08);
+  --menu-item-bg-color-active: rgba(59, 130, 246, 0.1);
+
+  /* Content */
+  --content-background-color: #0f172a;
+  --h1-text-color: #f8fafc;
+  --text-color: #cbd5e1;
+  --text-color-secondary: #94a3b8;
+
+  /* Links & Borders */
+  --link-text-color: #3b82f6;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-secondary: rgba(255, 255, 255, 0.04);
+
+  /* Search */
+  --search-input-bg-color: rgba(255, 255, 255, 0.05);
+  --search-trigger-color: #94a3b8;
+
+  /* Landing page variables */
+  --landing-bg: #0b0f19;
+  --landing-text: #f8fafc;
+  --landing-text-muted: #94a3b8;
+  --landing-surface: #0f172a;
+  --landing-border: rgba(255, 255, 255, 0.1);
+  --landing-accent: #3b82f6;
+  --landing-accent-secondary: #38bdf8;
+}

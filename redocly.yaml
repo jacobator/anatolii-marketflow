@@ -1,0 +1,79 @@
+extends:
+  - minimal
+rules:
+  operation-tag-defined: error
+  no-invalid-schema-examples: error
+  no-invalid-media-type-examples: error
+  scalar-property-missing-example: error
+  rule/operation-summary-sentence-case:
+    subject:
+      type: Operation
+      property: summary
+    message: Operation summary must be sentence cased.
+    assertions:
+      pattern: /^([A-Z]{2,}|[A-Z][^A-Z]*)\b(\s+(?:[A-Z]{2,}|[^A-Z]*)\b)*$/ # Sentence case but allow acronyms
+  rule/example-summary-sentence-case:
+    subject:
+      type: Example
+      property: summary
+    message: Example summary must be sentence cased.
+    assertions:
+      pattern: /^([A-Z]{2,}|[A-Z][^A-Z]*)\b(\s+(?:[A-Z]{2,}|[^A-Z]*)\b)*$/ # Sentence case but allow acronyms
+
+ignore:
+  - .github
+
+# Global SEO settings
+seo:
+  title: Marketplace Developer Portal
+  description: "Central hub for the Online Marketplace, providing comprehensive documentation for developers integrating with our API and for users navigating our platform's UI."
+
+# Search configuration
+search:
+  suggestedPages:
+    - label: Getting Started
+      page: docs/api/getting-started.md
+    - label: UI Overview
+      page: docs/ui/overview.md
+
+# Breadcrumbs navigation
+breadcrumbs:
+  hide: false
+
+# Site footer with links and copyright
+footer:
+  copyrightText: "© 2026 Marketplace Inc"
+  items:
+    - group: API
+      items:
+        - label: Getting Started
+          page: docs/api/getting-started.md
+        - label: Authentication
+          page: docs/api/authentication.md
+    - group: Product
+      items:
+        - label: Seller Guide
+          page: docs/ui/seller-dashboard.md
+        - label: Buyer Experience
+          page: docs/ui/buyer-experience.md
+    - group: Company
+      items:
+        - label: Support
+          href: "https://support.example.com"
+          external: true
+
+# logo:
+#   src: images/logo.svg
+#   favicon: images/favicon.png
+#   link: /
+
+navbar:
+  items:
+    - page: index.page.tsx
+      label: Home
+    - page: docs/index.md
+      label: Documentation
+    - page: docs/api/getting-started.md
+      label: API Guide
+    - page: docs/ui/overview.md
+      label: UI Guide

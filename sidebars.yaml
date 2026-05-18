@@ -1,0 +1,18 @@
+- page: docs/index.md
+  icon: home
+- group: API Guide
+  icon: terminal
+  expanded: true
+  items:
+    - page: docs/api/getting-started.md
+    - page: docs/api/authentication.md
+    - page: docs/api/products.md
+    - page: docs/api/orders.md
+- group: UI Guide
+  icon: monitor
+  expanded: false
+  items:
+    - page: docs/ui/overview.md
+    - page: docs/ui/seller-dashboard.md
+    - page: docs/ui/managing-inventory.md
+    - page: docs/ui/buyer-experience.md
