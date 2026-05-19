@@ -13,7 +13,7 @@ export const frontmatter = {
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 const LISTINGS = [
-  { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: -5, status: 'Active' },
+  { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: 7, status: 'Active' },
   { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: 12, status: 'Active' },
   { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: 0, status: 'Draft' },
 ];
@@ -30,7 +30,7 @@ const RESPONSE = `{
 }`;
 
 const FEATURES = [
-  { title: 'Manage Inventory', desc: 'Sync your catalog and manage SKU stock across multiple channels with real-time updates.' },
+  { title: 'Mange Inventory', desc: 'Sync your catalog and manage SKU stock across multiple channels with real-time updates.' },
   { title: 'Order Fulfillment', desc: 'Automate tracking and fulfillment processing. Keep buyers informed with automated Webhooks.' },
   { title: 'Payout Control', desc: 'Reconcile balances and manage payouts with programmatic reporting and finance tools.' },
 ];
