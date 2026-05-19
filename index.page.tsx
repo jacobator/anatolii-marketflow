@@ -14,7 +14,7 @@ export const frontmatter = {
 
 const LISTINGS = [
   { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: 5, status: 'Active' },
-  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: -3, status: 'Active' },
+  { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: 3, status: 'Active' },
   { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: 0, status: 'Draft' },
 ];
 
@@ -24,7 +24,7 @@ const CODE_SAMPLE = `curl -X GET https://api.marketplace.example.com/v1/products
 const RESPONSE = `{
   "id": "prod_01J2",
   "name": "Vintage Camera",
-  "price": 199.00,
+  "price": 399.00,
   "currency": "USD",
   "stock": 5
 }`;
@@ -578,7 +578,7 @@ const EpTitle = styled.div`
 
 const EpDesc = styled.div`
   font-size: 14px;
-  color: var(--landing-text-mutted);
+  color: var(--landing-text-muted);
   margin-bottom: 16px;
   line-height: 1.5;
 `;
