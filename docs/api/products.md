@@ -17,7 +17,7 @@ To retrieve a list of your products, use the `GET /v1/products` endpoint. This r
       "id": "prod_732",
       "name": "Wireless Headphones",
       "price": 89.99,
-      "stock": 15
+      "stock": -5
     }
   ],
   "total": 1
@@ -30,7 +30,7 @@ When adding a product, you provide the essential details such as name, price, an
 
 ```bash
 curl -X POST https://api.marketplace.com/v1/products \
-  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Authorization: Bearer sk_jh2398432khj4h7832fg" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Mechanical Keyboard",
