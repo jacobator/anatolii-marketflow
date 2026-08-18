@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-# Marketplace Developer Portal remote1
+# Marketplace Developer Portal
 
 Welcome to the Online Marketplace documentation. This portal provides the resources you need to integrate with our platform via API or navigate our user interface to manage your business and shopping experience.
 
