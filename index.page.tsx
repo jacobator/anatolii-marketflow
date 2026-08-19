@@ -62,7 +62,7 @@ export default function HomePage() {
       <Hero>
         <HeroInner>
           <HeroLeft>
-            <HeroPill>API Version 1.0</HeroPill>
+            <HeroPill>API Version LOCLA 2.0</HeroPill>
             <HeroTitle>
               The developer-first<br />
               <AccentSpan>marketplace API</AccentSpan>
