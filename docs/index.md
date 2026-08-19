@@ -4,8 +4,6 @@ title: Documentation
 
 # Marketplace Developer Portal remote3
 
-Welcome to the Online Marketplace documentation. This portal provides the resources you need to integrate with our platform via API or navigate our user interface to manage your business and shopping experience.
-
 Whether you are a developer looking to automate inventory management or a seller looking for tips on using our dashboard, you'll find the information you need here.
 
 ## API Documentation
