@@ -77,3 +77,8 @@ navbar:
       label: API Guide
     - page: docs/ui/overview.md
       label: UI Guide
+
+reunite:
+  reviewers:
+    '**': ['t23']
+    '*.md': ['anatolii+1@redocly.com']
