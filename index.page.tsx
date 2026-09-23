@@ -5,7 +5,7 @@ import { Link } from '@redocly/theme/components/Link/Link';
 
 export const frontmatter = {
   seo: {
-    title: 'Marketplace API — Developer Documentation',
+    title: 'Marketplace wow API — Developer Documentation',
     description: 'Integrate with the Online Marketplace API. Manage inventory, listings, orders, and fulfillment.',
   },
 };
