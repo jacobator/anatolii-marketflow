@@ -1,3 +1,3 @@
 # Root file
 
-A file at the repository root.
+A file at the repository root, edited.

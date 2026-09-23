@@ -9,7 +9,7 @@ multi line 6
 multi line 7
 multi line 8
 multi line 9
-multi line 10
+multi line 10 changed
 multi line 11
 multi line 12
 multi line 13
@@ -40,6 +40,7 @@ multi line 37
 multi line 38
 multi line 39
 multi line 40
+multi line 40a added
 multi line 41
 multi line 42
 multi line 43
@@ -69,7 +70,6 @@ multi line 66
 multi line 67
 multi line 68
 multi line 69
-multi line 70
 multi line 71
 multi line 72
 multi line 73
