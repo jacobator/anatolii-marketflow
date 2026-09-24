@@ -1,4 +1,4 @@
 # Whitespace only
 
-indented	line
+indented    line
 another line
