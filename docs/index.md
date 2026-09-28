@@ -8,7 +8,7 @@ Welcome to the Online Marketplace documentation. This portal provides the resour
 
 Whether you are a developer looking to automate inventory management or a seller looking for tips on using our dashboard, you'll find the information you need here.
 
-## API Documentation
+## API Documentation1
 
 Integrate your systems directly with our marketplace. Our API allows you to manage products, process orders, and sync inventory in real-time.
 
@@ -21,7 +21,7 @@ Understand how to secure your API requests using Bearer tokens.
 {% /card %}
 {% /cards %}
 
-## UI User Guides
+## UI User Guides1
 
 Explore our web-based interface designed for both buyers and sellers. These guides walk you through the key features of the marketplace dashboard.
 

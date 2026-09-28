@@ -2,7 +2,7 @@
 title: UI Overview
 ---
 
-# UI Overview
+# UI Overview1
 
 The Online Marketplace provides a robust web interface designed to cater to the needs of both buyers and sellers. Our dashboard is built to be intuitive, allowing you to manage your marketplace activities with ease.
 
@@ -15,7 +15,7 @@ The dashboard serves as your primary control center. Depending on your account t
 
 The interface is responsive, ensuring you can manage your marketplace presence from your desktop or mobile device.
 
-## Key Navigation Areas
+## Key Navigation Areas1
 
 The marketplace is divided into several specialized areas to help you focus on your current task. Use the sidebar or top navigation to switch between these sections:
 

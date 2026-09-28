@@ -2,7 +2,7 @@
 title: Buyer Experience
 ---
 
-# Buyer Experience
+# Buyer Experience1
 
 The Online Marketplace provides a seamless shopping experience, from discovering new items to tracking them all the way to your doorstep.
 
@@ -26,7 +26,7 @@ When you're ready to buy, the checkout process is designed to be secure and stra
 Your payment information is encrypted and never stored directly on our servers.
 {% /admonition %}
 
-## Tracking Your Orders
+## Tracking Your Orders1
 
 After a purchase, you can monitor its progress directly from your profile.
 
