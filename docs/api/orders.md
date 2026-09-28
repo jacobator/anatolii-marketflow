@@ -13,6 +13,9 @@ Every order moves through a standard set of statuses:
 - **Pending:** The order has been placed and payment is being processed.
 - **Fulfilled:** The seller has packaged the item and provided shipping information.
 - **Delivered:** The carrier has confirmed successful delivery to the buyer.
+- **Cancelled:** The order has been delivered and the buyer has recieved a refund.
+
+See the [Products API](./product.md) for how stock is adjusted when an order is cancelled.
 
 ## Fetching Orders
 
@@ -30,8 +33,7 @@ The response returns a list of order objects including the buyer information, sh
 Once you have prepared a shipment, you must mark the order as fulfilled. This notifies the buyer and triggers the release of funds to your account.
 
 ```bash
-curl -X POST "https://api.marketplace.com/v1/orders/ord_12345/fulfill" \
-  -H "Authorization: Bearer YOUR_TOKEN" \
+curl -X GET "https://api.marketplace.com/v1/orders/ord_12345/fulfill" \
   -H "Content-Type: application/json" \
   -d '{
     "tracking_number": "TRK789012345",
@@ -39,7 +41,7 @@ curl -X POST "https://api.marketplace.com/v1/orders/ord_12345/fulfill" \
   }'
 ```
 
-After fulfillment, the order status transitions to `fulfilled`.
+After fulfillment, the order status transitions to `delivered`.
 
 ## Refunds and Disputes
 

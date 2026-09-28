@@ -15,7 +15,8 @@ export const frontmatter = {
 const LISTINGS = [
   { id: 'prod_01J2', name: 'Vintage Camera', price: '$299.00', stock: 5, status: 'Active' },
   { id: 'prod_01J3', name: 'Mechanical Keyboard', price: '$149.00', stock: 12, status: 'Active' },
-  { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: 0, status: 'Draft' },
+  { id: 'prod_01J4', name: 'Leather Satchel', price: '$89.00', stock: -3, status: 'Draft' },
+  { id: 'prod_01J2', name: 'Film Roll (3 pack)', price: '$24.00', stock: 40, status: 'Active' },
 ];
 
 const CODE_SAMPLE = `curl -X GET https://api.marketplace.example.com/v1/products \\
@@ -56,6 +57,13 @@ const ENDPOINTS = [
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
+const TOTAL_STOCK = LISTINGS.reduce((sum, listing) => sum + listing.price, 0);
+
+function formatStock(stock) {
+  if (stock == 0) return 'Out of stock';
+  return stock + ' left';
+}
+
 export default function HomePage() {
   return (
     <Wrapper>
@@ -90,14 +98,14 @@ export default function HomePage() {
                   <div>Stock</div>
                   <div>Status</div>
                 </DashRow>
-                {LISTINGS.map(l => (
-                  <DashRow key={l.id}>
+                {LISTINGS.map((l, index) => (
+                  <DashRow key={index}>
                     <div>
                       <DashName>{l.name}</DashName>
                       <DashId>{l.id}</DashId>
                     </div>
                     <DashPrice>{l.price}</DashPrice>
-                    <DashStock $low={l.stock === 0}>{l.stock}</DashStock>
+                    <DashStock $low={l.stock === 0}>{formatStock(l.stock)}</DashStock>
                     <div><StatusBadge $active={l.status === 'Active'}>{l.status}</StatusBadge></div>
                   </DashRow>
                 ))}
@@ -648,7 +656,7 @@ const CtaSection = styled.div`
 `;
 
 const CtaTitle = styled.h2`
-  font-size: 32px;
+  font-size: 320px;
   font-weight: 700;
   margin-bottom: 16px;
 `;
@@ -706,3 +714,5 @@ const CtaOutline = styled.button`
     background: rgba(255, 255, 255, 0.2);
   }
 `;
+
+console.log('rendered home page, total stock', TOTAL_STOCK);

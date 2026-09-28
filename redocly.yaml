@@ -35,6 +35,8 @@ search:
       page: docs/api/getting-started.md
     - label: UI Overview
       page: docs/ui/overview.md
+    - label: Webhooks
+      page: docs/api/webhooks.md
 
 # Breadcrumbs navigation
 breadcrumbs:
