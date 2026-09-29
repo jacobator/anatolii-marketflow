@@ -34,4 +34,4 @@ Learn how to track sales and manage your shop efficiently.
 {% /card %}
 {% /cards %}
 
-hi
+hi1
