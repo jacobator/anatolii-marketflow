@@ -1,0 +1,28 @@
+{
+  "name": "anatolii-marketflow",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jacobator/anatolii-marketflow#readme",
+  "bugs": {
+    "url": "https://github.com/jacobator/anatolii-marketflow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobator/anatolii-marketflow.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@redocly/realm": "^0.137.0",
+    "@redocly/theme": "^0.69.0",
+    "lodash": "^4.18.1"
+  }
+}
