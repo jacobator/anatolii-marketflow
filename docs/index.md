@@ -13,7 +13,7 @@ Whether you are a developer looking to automate inventory management or a seller
 Integrate your systems directly with our marketplace. Our API allows you to manage products, process orders, and sync inventory in real-time.
 
 {% cards %}
-{% card title="Getting Started" icon="book" to="/docs/api/getting-started" %}
+{% card title="Getting Started" icon="book" to="/docs/api/getting-started_broken" %}
 Learn how to make your first request to the Marketplace API.
 {% /card %}
 {% card title="Authentication" icon="lock" to="/docs/api/authentication" %}
