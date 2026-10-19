@@ -30,7 +30,7 @@ const RESPONSE = `{
 }`;
 
 const FEATURES = [
-  { title: 'Manage Inventory', desc: 'Sync your catalog and manage SKU stock across multiple channels with real-time updates.' },
+  { title: 'Manage Inventory test', desc: 'Sync your catalog and manage SKU stock across multiple channels with real-time updates.' },
   { title: 'Order Fulfillment', desc: 'Automate tracking and fulfillment processing. Keep buyers informed with automated Webhooks.' },
   { title: 'Payout Control', desc: 'Reconcile balances and manage payouts with programmatic reporting and finance tools.' },
 ];
