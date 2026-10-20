@@ -23,7 +23,7 @@ rules:
 ignore:
   - .github
 
-# Global SEO settings
+# Global SEO settings1
 seo:
   title: Marketplace Developer Portal
   description: "Central hub for the Online Marketplace, providing comprehensive documentation for developers integrating with our API and for users navigating our platform's UI."
