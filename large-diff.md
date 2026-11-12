@@ -1,4 +1,4 @@
-# Large diff test
+# Large diff test editor mark test
 
 line 0001: original text
 line 0002: original text
